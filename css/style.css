@@ -1,0 +1,126 @@
+.d-none{
+	display: none;
+}
+.bytebunch_admin_page_container h2{
+	margin:20px 0!important;
+	padding-bottom: 0px!important;
+}
+.bytebunch_admin_page_container h2 a:focus{
+	box-shadow: none;
+}
+.bytebunch_admin_page_container textarea{
+	max-width: 100%;
+	width:75%;
+}
+.bytebunch_admin_page_container .form-field textarea{
+	width:95%;
+}
+.bytebunch_admin_page_container .form-table td, .bytebunch_admin_page_container .form-table th{
+	vertical-align: top;
+}
+.bytebunch_admin_page_container .bbwp_cf_table_ui th p {
+    font-weight: 400;
+    font-size: 12px;
+}
+.bytebunch_admin_page_container .bbwp_cf_table_ui input[type='text']{
+	width: 75%;
+}
+.form-field .bb_checkboxes_container label{
+	display: inline;
+	display: inline-block;
+}
+.bytebunch_admin_page_container .bbwp_cf_table_ui fieldset {
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
+    overflow: hidden;
+}
+input.regular-text{
+	max-width: 100%;
+}
+/* field type css start from here */
+.clearboth
+{
+   clear: both;
+   margin:0px;
+   padding:0px;
+}
+p.submit{
+	display: block!important;
+}
+.bytebunch-wp-sortable .ui-sortable-handle{
+	cursor:move;
+}
+.bytebunch-wp-sortable .ui-sortable-helper{
+	background-color: #DCDBDB!important;
+}
+.bytebunch-wp-sortable .ui-state-highlight/*, .bytebunch-wp-sortable .ui-state-heighlight td*/{
+	background-color: #aaaaaa!important;
+	background-image: none!important;
+	height: 56px!important;
+}
+span.require_star{
+	color: #f00;
+}
+/*.bbtagchecklist input[type="text"]{
+	border:none;
+	margin:0px;
+	background: none;
+	padding:0px;
+	display: inline;
+	width:auto;
+	height: auto;
+}*/
+.bb_image_preview span{
+	position: relative;
+	display: block;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+.bb_image_preview img{
+	max-width: 100%;
+	max-height: 100px;
+}
+a.bb_dismiss_icon{
+	text-decoration: none;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+.input_bbtagchecklist span{
+	display: block;
+}
+.input_bbtagchecklist span a{
+	display: inline-block;
+	position:relative;
+}
+.input_bbtagchecklist span a::before{
+	display: block;
+	top:0px;
+	position: absolute;
+}
+a.bb_dismiss_icon:hover::before{
+	color:#f00;
+}
+a.bb_dismiss_icon::before{
+	background: 0 0;
+  color: #b4b9be;
+  content: "\f153";
+  display: inline-block;
+  font: 400 20px/20px dashicons;
+  speak: none;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+.bb_image_preview a.bb_dismiss_icon{
+	position: absolute;
+	top:-9px;
+	right:-9px;
+}
+.bbwpcf-field-description{
+	font-style: italic;
+}
+/* field type css end here */
